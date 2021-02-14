@@ -5,13 +5,30 @@ export default (req, res) => {
     data: [
       {
         id: 1,
-        name: "Dr.Myo Naing",
-        specializations: {
+        name: "",
+        name_myan: "Dr.Myo Naing",
+        specialization: {
           id: 1,
           title: "အထွေထွေရောဂါကု",
           description: "",
           priority: 1
         },
+        accounts: [
+          {
+            id: 3,
+            channel: 'BANK',
+            name: 'AYA',
+            account_no: '0123325153244',
+            note: ''
+          },
+          {
+            id: 4,
+            channel: 'AGENT',
+            name: 'Wave Money',
+            account_no: '09250353325',
+            note: ''
+          },
+        ],
         schedules: [
           {
             id: 1,
@@ -32,8 +49,14 @@ export default (req, res) => {
         fee_status: "FOC",
         status: "AVAILABLE",
         address: "",
-        township: "",
-        provience: "",
+        town: {
+          id: 1,
+          town_pcode: "MMRO13037701",
+          town_name_eng: "Ahlone",
+          town_name_myan: "အလုံ",
+          longitude: 96.127863,
+          latitude: 16.782398
+        },
         facebook_url: "",
         viber: "+959458028999",
         notes: "",
@@ -46,12 +69,29 @@ export default (req, res) => {
       {
         id: 2,
         name: "Dr.Kyaw Myo",
-        specialization_id: {
+        name_myan: "",
+        specialization: {
           id: 3,
           title: "အထူးကုသမားတော်",
           description: "",
           priority: 3
         },
+        accounts: [
+          {
+            id: 1,
+            channel: 'BANK',
+            name: 'AYA',
+            account_no: '0123232153244',
+            note: ''
+          },
+          {
+            id: 2,
+            channel: 'AGENT',
+            name: 'Wave Money',
+            account_no: '09250369325',
+            note: ''
+          },
+        ],
         schedules: [
           {
             id: 3,
@@ -72,8 +112,15 @@ export default (req, res) => {
         fee_status: "FOC",
         status: "AVAILABLE",
         address: "",
-        township: "",
-        provience: "",
+        town: {
+          id: 1,
+          town_pcode: "MMRO13037701",
+          town_name_eng: "Ahlone",
+          town_name_myan: "အလုံ",
+          longitude: 96.127863,
+          latitude: 16.782398
+        },
+        town_id: 2,
         facebook_url: "",
         viber: "+959458028100",
         notes: "",

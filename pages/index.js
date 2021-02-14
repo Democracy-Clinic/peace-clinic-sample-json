@@ -34,6 +34,14 @@ export default function Home() {
           </a>
 
           <a
+            href="/api/v1/ambulances"
+            className={styles.card}
+          >
+            <h3>Ambulances &rarr;</h3>
+            <p>Find Ambulances !</p>
+          </a>
+
+          <a
             target="_blank"
             href="https://www.facebook.com/Democracy-Clinic-342009636965974"
             className={styles.card}

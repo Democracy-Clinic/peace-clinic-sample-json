@@ -4,7 +4,8 @@ export default (req, res) => {
     data: [
       {
         id: 1,
-        name: "ရှင်ပါကူ",
+        name: "",
+        name_myan: "ရှင်ပါကူ",
         phone: "",
         fee_status: "အခပေး",
         status: "AVAILABLE",
@@ -25,8 +26,14 @@ export default (req, res) => {
             to_time: "12:00 PM"
           },
         ],
-        township: "",
-        provience: "",
+        town: {
+          id: 1,
+          town_pcode: "MMRO13037701",
+          town_name_eng: "Ahlone",
+          town_name_myan: "အလုံ",
+          longitude: 96.127863,
+          latitude: 16.782398
+        },
         facebook_url: "",
         viber: "+959458028111",
         notes: "",
@@ -38,7 +45,8 @@ export default (req, res) => {
       },
       {
         id: 2,
-        name: "တော်၀င်",
+        name: "",
+        name_myan: "တော်၀င်",
         phone: "",
         fee_status: "အခပေး",
         status: "AVAILABLE",
@@ -59,8 +67,14 @@ export default (req, res) => {
             to_time: "12:00 PM"
           },
         ],
-        township: "",
-        provience: "",
+        town: {
+          id: 1,
+          town_pcode: "MMRO13037701",
+          town_name_eng: "Ahlone",
+          town_name_myan: "အလုံ",
+          longitude: 96.127863,
+          latitude: 16.782398
+        },
         facebook_url: "",
         viber: "+959458028200",
         notes: "",
